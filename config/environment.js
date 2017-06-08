@@ -15,11 +15,11 @@ module.exports = function(environment) {
       messagingSenderId: '448760600436',
     },
     // if using ember-cli-content-security-policy
-    contentSecurityPolicy: {
-      'script-src': "'self' 'unsafe-eval' apis.google.com",
-      'frame-src': "'self' https://*.firebaseapp.com",
-      'connect-src': "'self' wss://*.firebaseio.com https://*.googleapis.com"
-    },
+    // contentSecurityPolicy: {
+    //   'script-src': "'self' 'unsafe-eval' apis.google.com",
+    //   'frame-src': "'self' https://*.firebaseapp.com",
+    //   'connect-src': "'self' wss://*.firebaseio.com https://*.googleapis.com"
+    // },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
